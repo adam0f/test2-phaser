@@ -3,10 +3,12 @@ import Phaser from 'phaser'
 import titleScreen from './scenes/titleScreen'
 import gameScene from './scenes/gameScene'
 
+
 const config = {
     width: 1200,
     height: 800,
     type: Phaser.AUTO,
+    backgroundColor: 0x444444,
     physics: {
         default: 'arcade', 
         arcade: {
